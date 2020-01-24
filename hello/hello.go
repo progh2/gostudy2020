@@ -21,4 +21,15 @@ func main() {
 		i2++
 	}
 	fmt.Println(sum2)
+
+	sum3, i3 := 0, 0
+	// for 문에 조건식 생략
+	for{
+		if i3>= 10 {
+			break
+		}
+		sum3 += i3
+		i3++
+	}
+	fmt.Println(sum3)
 }

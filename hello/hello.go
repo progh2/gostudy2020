@@ -15,4 +15,10 @@ func main() {
 	}
 	fmt.Println(sum)
 
+	sum2, i2 := 0, 0
+	for i2 < 10 {
+		sum2 += i2
+		i2++
+	}
+	fmt.Println(sum2)
 }
